@@ -16,7 +16,7 @@ public class Asignatura {
         this("Sin nombre", codigoInterno, 0,tipo);
     }
 
-    Asignatura(int codigoExterno,Tipo tipo) {
+    Asignatura(Tipo tipo,int codigoInterno) { {
         this("Sin nombre", 0, codigoExterno,tipo);
     }
 
